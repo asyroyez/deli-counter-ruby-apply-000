@@ -5,7 +5,7 @@ def line(que)
   if que.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: " +
+    puts "The line is currently: " + 
     que.map { |i| (que.index(i) + 1).to_s + ". " + i }.join(" ")
   end
 end
