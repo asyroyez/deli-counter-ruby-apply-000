@@ -10,9 +10,11 @@ def line(que)
   end
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli.push(name)
-  puts "Welcome, #{name}. You are number " + (katz_deli.index(name) + 1).to_s + " in line."
+def take_a_number(katz_deli)
+
+
+  # katz_deli.push(name)
+  # puts "Welcome, #{name}. You are number " + (katz_deli.index(name) + 1).to_s + " in line."
 end
 
 def now_serving(line)
